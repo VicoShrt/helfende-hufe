@@ -5,6 +5,8 @@ logoUrl: >-
 initialPath: start
 navigator:
   links:
+    - label: Archiv
+      path: /archiv
     - label: Start
       path: /start
     - label: Tierschutz
