@@ -5,8 +5,6 @@ logoUrl: >-
 initialPath: start
 navigator:
   links:
-    - label: Archiv
-      path: /archiv
     - label: Start
       path: /start
     - label: Tierschutz
@@ -17,6 +15,8 @@ navigator:
       path: /mitglied
     - label: Neuigkeiten
       path: /neuigkeiten
+    - label: Archiv
+      path: /archiv
   buttons:
     - label: Spenden
       path: /spenden
