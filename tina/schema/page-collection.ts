@@ -229,10 +229,7 @@ const pageCollection = {
       if (document._sys.filename === "start") {
         return "/";
       }
-      if (document._sys.filename === "about") {
-        return `/about`;
-      }
-      return undefined;
+      return `/${document._sys.filename}`;
     },
   },
   fields: [
