@@ -5,8 +5,6 @@ logoUrl: >-
 initialPath: start
 navigator:
   links:
-    - label: Neuigkeiten
-      path: /neuigkeiten
     - label: Start
       path: /start
     - label: Tierschutz
@@ -15,6 +13,8 @@ navigator:
       path: /vorstand
     - label: Mitglied
       path: /mitglied
+    - label: Neuigkeiten
+      path: /neuigkeiten
     - label: Archiv
       path: /archiv
   buttons:
